@@ -37,7 +37,7 @@ Code Example
     }
 
 Skills
-------
+--------
 
 HTML/CSS, JavaScript Basics, Git, Scala, Python Basics  
 
