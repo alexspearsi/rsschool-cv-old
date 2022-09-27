@@ -53,7 +53,7 @@ I have bachelor's degrees in Tourism and Economics
 English
 -------
 
-##### B2+
+##### B2
 
 I've already been learning English for about three to four years and I reckon that I know a thing or two about that language.
 
