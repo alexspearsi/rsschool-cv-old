@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.circle {                         /* фото */
+    border-radius: 200px;
+    width: 250px;
+    padding-top: 20px;
+}
+
+.header {                          /* навигация */
+    background-image: url(assets/img/head.jpg);
+}
+
+.main {                            /* основной контент */
+    background-image: url(assets/img/background.jpg);
+}
+
+.footer {                          /* подвал на гит и рсс */
+    background-image: url(assets/img/footer2.jpg);
+}
+
+.container {                       /* сердцевина каждого блока */
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {                        /* навигация сам список */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {                        /* элементы списка как ссылки */
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.nav-link:hover {                   /* анимация элементов списка */
+    transition: .4s;
+    color: red;
+    font-size: 14px;
+}
+
+.main-container {                 /* в две колоник main становится */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {                       /* изменям ширину секций на 50% */
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #365e3b;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #41dd56;
+    transition: color 0.5s;
+  }
+  
+  .link:hover {
+    color: #0d3012;
+  }
+
+.endfooter {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
