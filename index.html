@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/img/428897.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <img src="assets/img/photo.jpg" alt="myPhoto" class="circle">
+                <h1 class="section-title">Alexander Strelchenko</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li>Novopolotsk, Belarus</li>
+                    <li>Email: <a href="mailto:strelchenko.aleksandr@yandex.ru" class="link">strelchenko.aleksandr@yandex.ru</a></li>
+                    <li>Github: <a href="https://github.com/AlexSpearsI" class="link" target="_blank">alexspearsi</a></li>
+                    <li>Telegram: <a href="https://t.me/alexspears" class="link" target="_blank">@alexspears</a></li>
+                    <li>Discord: <a href="https://discordapp.com/users/604304135382368256" class="link" target="_blank">alexspearsi</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I graduated from the university with two degrees.
+                    At the moment I am getting a master's degree in mathematics
+                    and computer science. I decided to change my speciality because
+                    I see myself as a developer. My personal qualities are: sociability,
+                    stress tolerance and discipline, I was fully convinced of this
+                    after serving in the army.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git/Github</li>
+                    <li>Python</li>
+                    <li>Scala</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+function showPrimes(n) {
+    for (let i = 2; i &lt; n; i++) {
+        if (!isPrime(i)) continue;
+        alert(i);
+    }
+}
+
+function isPrime(n) {
+    for (let i = 2; i &lt; n; i++) {
+        if ( n % i == 0) return false;
+    }
+    return true;
+}
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <h3>Polotsk State University</h3>
+                <p><b>Faculty of History and Philology &lt; Faculty of Finance and Economics</b></p>
+                <p>I have bachelor's degrees in Tourism and Economics</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p><b>B1+</b></p>
+                <p>
+                    I've already been learning English
+                    for about three to four years and I
+                    reckon that I know a thing or two
+                    about that language.
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="endfooter">
+                <li class="fff">Visit my <a href="https://github.com/AlexSpearsI" target="_blank">Github</a></li>
+                <li class="fff">© 2022 Alexander Strelchenko</li>
+                <li class="fff"><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="photo"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
