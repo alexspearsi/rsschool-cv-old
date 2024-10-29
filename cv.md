@@ -1,9 +1,10 @@
-# Aliaksandr Strelchanka
+# Alexander Strelchenko
 
 ## Contact information
 * **E-mail:** **alex@strelch.ru**
 * **LinkedIn:** **[linkedin.com/in/strelchanka](https://www.linkedin.com/in/strelchanka/)**
 * **Telegram:** **[alexspears](https://t.me/alexspears)**
+* **Discord:** [**Alexander S. (@alexspearsi)**](https://discordapp.com/users/604304135382368256)
 
 ## About me
 Based in Israel, currently pursuing Full Stack Development and actively seeking an internship. Transitioning into software development with a focus on professional growth. A motivated, reliable, and open-minded individual who values collaboration, effective communication, and problem-solving. Demonstrates a strong ability to learn quickly and adapt to new challenges in development environments.
