@@ -1,4 +1,8 @@
 # Alexander Strelchenko
+![download](https://github.com/user-attachments/assets/8bf5c959-9b85-42f7-a968-6df9b4ae022b)
+
+
+
 
 ## Contact information
 * **E-mail:** **alex@strelch.ru**
